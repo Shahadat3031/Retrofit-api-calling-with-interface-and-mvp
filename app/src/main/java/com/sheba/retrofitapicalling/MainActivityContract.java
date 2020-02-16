@@ -6,7 +6,6 @@ import java.util.List;
 
 public class MainActivityContract {
 
-
     public interface View{
         void showMovieList(List<Hero> heroes);
         void showServiceError(String message);

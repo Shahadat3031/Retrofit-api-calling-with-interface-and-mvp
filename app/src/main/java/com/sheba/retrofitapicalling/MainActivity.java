@@ -33,10 +33,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityContr
 
     @Override
     public void showMovieList(List<Hero> heroes) {
-
         this.heroes = heroes;
         Toast.makeText(this, "Heroes Size:" + heroes.size(), Toast.LENGTH_SHORT).show();
-
         tvName.setText(heroes.get(0).getName());
 
     }

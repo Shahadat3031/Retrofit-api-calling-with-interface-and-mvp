@@ -26,7 +26,6 @@ public class MainActivityPresenter implements MainActivityContract.Presenter {
 
             @Override
             public void onSuccess(List<Hero> hero) {
-
                 mainActivityView.showMovieList(hero);
             }
 
